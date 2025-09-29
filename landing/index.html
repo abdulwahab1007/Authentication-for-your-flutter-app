@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Acme — Simple Landing</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">Acme</a>
+        <nav class="nav" id="primary-nav">
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1>Build something simple and beautiful</h1>
+            <p>Launch quickly with a clean, responsive landing page template.</p>
+            <div class="cta">
+              <a href="#contact" class="btn btn-primary">Get Started</a>
+              <a href="#features" class="btn btn-ghost">Learn More</a>
+            </div>
+          </div>
+          <div class="hero-media">
+            <div class="card">
+              <div class="card-header">Dashboard</div>
+              <div class="card-body">
+                <div class="skeleton-row"></div>
+                <div class="skeleton-row"></div>
+                <div class="skeleton-row"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <h2 class="section-title">What you get</h2>
+          <div class="grid">
+            <div class="feature">
+              <div class="feature-icon">🔥</div>
+              <h3>Fast</h3>
+              <p>Lightweight styles and zero dependencies.</p>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">🔒</div>
+              <h3>Secure</h3>
+              <p>Best practices baked in.</p>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">⚙️</div>
+              <h3>Customizable</h3>
+              <p>Tweak variables and make it yours.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Simple pricing</h2>
+          <div class="pricing">
+            <div class="price-card">
+              <h3>Starter</h3>
+              <p class="price">$0</p>
+              <ul>
+                <li>Basic components</li>
+                <li>Responsive layout</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">Choose</a>
+            </div>
+            <div class="price-card highlighted">
+              <h3>Pro</h3>
+              <p class="price">$19</p>
+              <ul>
+                <li>Everything in Starter</li>
+                <li>Priority support</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">Choose</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="cta-banner">
+            <h2>Ready to launch?</h2>
+            <form class="cta-form" onsubmit="return false;">
+              <input type="email" placeholder="you@example.com" aria-label="Email" required>
+              <button class="btn btn-primary" type="submit">Notify me</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2025 Acme Inc.</span>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
+
